@@ -71,7 +71,8 @@ def get_config_for_2b() -> GemmaConfig:
         num_attention_heads=8,
         num_key_value_heads=1,
         hidden_size=2048,
-        intermediate_size=16384
+        intermediate_size=16384,
+        quant=True
     )
 
 
